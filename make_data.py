@@ -28,7 +28,6 @@ def make_landmark_timestep(results):
         c_lm.append(lm.x)
         c_lm.append(lm.y)
         c_lm.append(lm.z)
-        c_lm.append(lm.visibility)
 
     return c_lm
 
