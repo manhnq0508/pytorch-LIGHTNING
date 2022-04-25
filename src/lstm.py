@@ -76,7 +76,7 @@ class HandDataModule(pl.LightningDataModule):
         )
         return val_loader
 
-TOT_ACTION_CLASSES = 2
+TOT_ACTION_CLASSES = 5
 
 class ActionClassificationLSTM(pl.LightningModule):
     # initialise method
