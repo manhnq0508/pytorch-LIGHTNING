@@ -76,8 +76,10 @@ class HandDataModule(pl.LightningDataModule):
         )
         return val_loader
 
-TOT_ACTION_CLASSES = 5
 
+TOT_ACTION_CLASSES = 2
+TOT_ACTION_CLASSESSS = 2
+TOT_ACTION_CLASSESS = 2
 class ActionClassificationLSTM(pl.LightningModule):
     # initialise method
     def __init__(self, input_features, hidden_dim, learning_rate=0.001):
