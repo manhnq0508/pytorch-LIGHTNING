@@ -76,6 +76,7 @@ class HandDataModule(pl.LightningDataModule):
         )
         return val_loader
 
+
 TOT_ACTION_CLASSES = 2
 
 class ActionClassificationLSTM(pl.LightningModule):
